@@ -8,7 +8,7 @@
 #ifndef TREENODE_HPP_
 #define TREENODE_HPP_
 
-#include "trees/treeList.hpp"
+#include "treeList.hpp"
 
 namespace trees {
 

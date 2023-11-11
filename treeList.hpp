@@ -8,7 +8,7 @@
 #ifndef CHILDRENLIST_HPP_
 #define CHILDRENLIST_HPP_
 
-#include "trees/treeListNode.hpp"
+#include "treeListNode.hpp"
 
 namespace trees {
 

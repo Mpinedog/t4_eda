@@ -8,7 +8,7 @@
 #ifndef CHILDNODE_HPP_
 #define CHILDNODE_HPP_
 
-#include "trees/treeNode.hpp"
+#include "treeNode.hpp"
 
 namespace trees {
 class TreeNode;

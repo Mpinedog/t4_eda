@@ -5,7 +5,7 @@
  *      Author: jsaavedr
  */
 
-#include "trees/treeNode.hpp"
+#include "treeNode.hpp"
 
 namespace trees {
 
