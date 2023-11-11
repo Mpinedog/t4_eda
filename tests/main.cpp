@@ -1,10 +1,12 @@
 #include <iostream>
-#include "abb.hpp"
-#include "abbNode.hpp"
-#include "tree.hpp"
-#include "treeList.hpp"
-#include "treeListNode.hpp"
-#include "treeNode.hpp"
+#include "../include/abb/abb.hpp"
+#include "../include/abb/abbNode.hpp"
+#include "../include/avl/avl.hpp"
+#include "../include/avl/avlNode.hpp"
+#include "../include/tree/tree.hpp"
+#include "../include/tree/treeList.hpp"
+#include "../include/tree/treeListNode.hpp"
+#include "../include/tree/treeNode.hpp"
 
 int main() {
     int n = 10; // Cambia este valor al número deseado de claves

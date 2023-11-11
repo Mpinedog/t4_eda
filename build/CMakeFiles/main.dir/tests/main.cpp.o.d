@@ -144,13 +144,15 @@ CMakeFiles/main.dir/tests/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/edauandes/Desktop/tareas/t4_eda/include/abb.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/abbNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/abbNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/tree.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/treeNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/treeList.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/treeListNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/treeList.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/treeListNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/treeNode.hpp
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/abb/abb.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/abb/abbNode.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/abb/abbNode.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/avl/avl.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/avl/avlNode.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/tree.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeNode.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeList.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeListNode.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeList.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeListNode.hpp \
+ /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeNode.hpp

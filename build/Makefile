@@ -177,6 +177,54 @@ src/abbNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/abbNode.cpp.s
 .PHONY : src/abbNode.cpp.s
 
+src/avl.o: src/avl.cpp.o
+.PHONY : src/avl.o
+
+# target to build an object file
+src/avl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/avl.cpp.o
+.PHONY : src/avl.cpp.o
+
+src/avl.i: src/avl.cpp.i
+.PHONY : src/avl.i
+
+# target to preprocess a source file
+src/avl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/avl.cpp.i
+.PHONY : src/avl.cpp.i
+
+src/avl.s: src/avl.cpp.s
+.PHONY : src/avl.s
+
+# target to generate assembly for a file
+src/avl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/avl.cpp.s
+.PHONY : src/avl.cpp.s
+
+src/avlNode.o: src/avlNode.cpp.o
+.PHONY : src/avlNode.o
+
+# target to build an object file
+src/avlNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/avlNode.cpp.o
+.PHONY : src/avlNode.cpp.o
+
+src/avlNode.i: src/avlNode.cpp.i
+.PHONY : src/avlNode.i
+
+# target to preprocess a source file
+src/avlNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/avlNode.cpp.i
+.PHONY : src/avlNode.cpp.i
+
+src/avlNode.s: src/avlNode.cpp.s
+.PHONY : src/avlNode.s
+
+# target to generate assembly for a file
+src/avlNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/avlNode.cpp.s
+.PHONY : src/avlNode.cpp.s
+
 src/tree.o: src/tree.cpp.o
 .PHONY : src/tree.o
 
@@ -312,6 +360,12 @@ help:
 	@echo "... src/abbNode.o"
 	@echo "... src/abbNode.i"
 	@echo "... src/abbNode.s"
+	@echo "... src/avl.o"
+	@echo "... src/avl.i"
+	@echo "... src/avl.s"
+	@echo "... src/avlNode.o"
+	@echo "... src/avlNode.i"
+	@echo "... src/avlNode.s"
 	@echo "... src/tree.o"
 	@echo "... src/tree.i"
 	@echo "... src/tree.s"

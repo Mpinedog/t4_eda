@@ -8,7 +8,7 @@
 #ifndef ABB_HPP_
 #define ABB_HPP_
 
-#include "trees/avlNode.hpp"
+#include "avl/avlNode.hpp"
 
 namespace trees {
 

@@ -5,7 +5,7 @@
  *      Author: jsaavedr
  */
 
-#include "trees/avlNode.hpp"
+#include "../include/avl/avlNode.hpp"
 #include <cmath>
 #include <iostream>
 
