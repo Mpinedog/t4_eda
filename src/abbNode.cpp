@@ -10,7 +10,7 @@
 namespace trees {
 
 ABBNode::ABBNode():
-		ptrLeft(nullptr), data(-1), ptrRight(nullptr) {
+	ptrLeft(nullptr), data(-1), ptrRight(nullptr) {
 	// TODO Auto-generated constructor stub
 }
 
