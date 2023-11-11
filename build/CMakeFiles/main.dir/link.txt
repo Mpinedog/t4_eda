@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/main.dir/tests/main.cpp.o CMakeFiles/main.dir/src/abbNode.cpp.o CMakeFiles/main.dir/src/abb.cpp.o CMakeFiles/main.dir/src/tree.cpp.o CMakeFiles/main.dir/src/treeList.cpp.o CMakeFiles/main.dir/src/treeListNode.cpp.o CMakeFiles/main.dir/src/treeNode.cpp.o -o main 
