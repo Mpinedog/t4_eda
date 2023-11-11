@@ -34,6 +34,6 @@ int main() {
     //arbol.showASC();
 
     // Realizar alguna operación adicional según sea necesario
-
+    trees::AVL avl;
     return 0;
 }
