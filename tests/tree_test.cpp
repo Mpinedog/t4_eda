@@ -1,5 +1,5 @@
 #include <iostream>
-#include "trees/tree.hpp"
+#include "../include/tree/tree.hpp"
 #include <cstring>
 
 int main(int nargs, char** vargs){

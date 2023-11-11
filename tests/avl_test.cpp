@@ -1,4 +1,4 @@
-#include "trees/avl.hpp"
+#include "../include/avl/avl.hpp"
 #include <iostream>
 
 int main(int nargas, char** vargs){
