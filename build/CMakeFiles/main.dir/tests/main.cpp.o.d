@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/tests/main.cpp.o: \
- /home/edauandes/Desktop/tareas/t4_eda/tests/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
+ /home/edauandes/t4_eda/tests/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -144,15 +144,25 @@ CMakeFiles/main.dir/tests/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/abb/abb.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/abb/abbNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/abb/abbNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/avl/avl.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/avl/avlNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/tree.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeList.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeListNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeList.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeListNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/tests/../include/tree/treeNode.hpp
+ /home/edauandes/t4_eda/tests/../include/abb/abb.hpp \
+ /home/edauandes/t4_eda/tests/../include/abb/abbNode.hpp \
+ /home/edauandes/t4_eda/tests/../include/abb/abbNode.hpp \
+ /home/edauandes/t4_eda/tests/../include/avl/avl.hpp \
+ /home/edauandes/t4_eda/tests/../include/avl/avlNode.hpp \
+ /home/edauandes/t4_eda/tests/../include/tree/tree.hpp \
+ /home/edauandes/t4_eda/tests/../include/tree/treeNode.hpp \
+ /home/edauandes/t4_eda/tests/../include/tree/treeList.hpp \
+ /home/edauandes/t4_eda/tests/../include/tree/treeListNode.hpp \
+ /home/edauandes/t4_eda/tests/../include/tree/treeList.hpp \
+ /home/edauandes/t4_eda/tests/../include/tree/treeListNode.hpp \
+ /home/edauandes/t4_eda/tests/../include/tree/treeNode.hpp \
+ /usr/include/c++/11/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h

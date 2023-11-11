@@ -1,4 +1,4 @@
-# Install script for directory: /home/edauandes/Desktop/tareas/t4_eda
+# Install script for directory: /home/edauandes/t4_eda
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/edauandes/Desktop/tareas/t4_eda/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/edauandes/t4_eda/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

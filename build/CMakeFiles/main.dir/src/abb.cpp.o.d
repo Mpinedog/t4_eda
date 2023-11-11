@@ -1,8 +1,7 @@
-CMakeFiles/main.dir/src/abb.cpp.o: \
- /home/edauandes/Desktop/tareas/t4_eda/src/abb.cpp \
+CMakeFiles/main.dir/src/abb.cpp.o: /home/edauandes/t4_eda/src/abb.cpp \
  /usr/include/stdc-predef.h \
- /home/edauandes/Desktop/tareas/t4_eda/src/../include/abb/abb.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/src/../include/abb/abbNode.hpp \
+ /home/edauandes/t4_eda/src/../include/abb/abb.hpp \
+ /home/edauandes/t4_eda/src/../include/abb/abbNode.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

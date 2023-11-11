@@ -1,10 +1,9 @@
-CMakeFiles/main.dir/src/tree.cpp.o: \
- /home/edauandes/Desktop/tareas/t4_eda/src/tree.cpp \
+CMakeFiles/main.dir/src/tree.cpp.o: /home/edauandes/t4_eda/src/tree.cpp \
  /usr/include/stdc-predef.h \
- /home/edauandes/Desktop/tareas/t4_eda/src/../include/tree/tree.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/src/../include/tree/treeNode.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/src/../include/tree/treeList.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/src/../include/tree/treeListNode.hpp \
+ /home/edauandes/t4_eda/src/../include/tree/tree.hpp \
+ /home/edauandes/t4_eda/src/../include/tree/treeNode.hpp \
+ /home/edauandes/t4_eda/src/../include/tree/treeList.hpp \
+ /home/edauandes/t4_eda/src/../include/tree/treeListNode.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

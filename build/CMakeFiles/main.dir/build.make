@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edauandes/Desktop/tareas/t4_eda
+CMAKE_SOURCE_DIR = /home/edauandes/t4_eda
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edauandes/Desktop/tareas/t4_eda/build
+CMAKE_BINARY_DIR = /home/edauandes/t4_eda/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,128 +72,128 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/tests/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/tests/main.cpp.o: ../tests/main.cpp
 CMakeFiles/main.dir/tests/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/tests/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/tests/main.cpp.o -MF CMakeFiles/main.dir/tests/main.cpp.o.d -o CMakeFiles/main.dir/tests/main.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/tests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/tests/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/tests/main.cpp.o -MF CMakeFiles/main.dir/tests/main.cpp.o.d -o CMakeFiles/main.dir/tests/main.cpp.o -c /home/edauandes/t4_eda/tests/main.cpp
 
 CMakeFiles/main.dir/tests/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/tests/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/tests/main.cpp > CMakeFiles/main.dir/tests/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/tests/main.cpp > CMakeFiles/main.dir/tests/main.cpp.i
 
 CMakeFiles/main.dir/tests/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tests/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/tests/main.cpp -o CMakeFiles/main.dir/tests/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/tests/main.cpp -o CMakeFiles/main.dir/tests/main.cpp.s
 
 CMakeFiles/main.dir/src/abb.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/abb.cpp.o: ../src/abb.cpp
 CMakeFiles/main.dir/src/abb.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/abb.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/abb.cpp.o -MF CMakeFiles/main.dir/src/abb.cpp.o.d -o CMakeFiles/main.dir/src/abb.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/abb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/abb.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/abb.cpp.o -MF CMakeFiles/main.dir/src/abb.cpp.o.d -o CMakeFiles/main.dir/src/abb.cpp.o -c /home/edauandes/t4_eda/src/abb.cpp
 
 CMakeFiles/main.dir/src/abb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/abb.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/abb.cpp > CMakeFiles/main.dir/src/abb.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/abb.cpp > CMakeFiles/main.dir/src/abb.cpp.i
 
 CMakeFiles/main.dir/src/abb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/abb.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/abb.cpp -o CMakeFiles/main.dir/src/abb.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/abb.cpp -o CMakeFiles/main.dir/src/abb.cpp.s
 
 CMakeFiles/main.dir/src/abbNode.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/abbNode.cpp.o: ../src/abbNode.cpp
 CMakeFiles/main.dir/src/abbNode.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/abbNode.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/abbNode.cpp.o -MF CMakeFiles/main.dir/src/abbNode.cpp.o.d -o CMakeFiles/main.dir/src/abbNode.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/abbNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/abbNode.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/abbNode.cpp.o -MF CMakeFiles/main.dir/src/abbNode.cpp.o.d -o CMakeFiles/main.dir/src/abbNode.cpp.o -c /home/edauandes/t4_eda/src/abbNode.cpp
 
 CMakeFiles/main.dir/src/abbNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/abbNode.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/abbNode.cpp > CMakeFiles/main.dir/src/abbNode.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/abbNode.cpp > CMakeFiles/main.dir/src/abbNode.cpp.i
 
 CMakeFiles/main.dir/src/abbNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/abbNode.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/abbNode.cpp -o CMakeFiles/main.dir/src/abbNode.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/abbNode.cpp -o CMakeFiles/main.dir/src/abbNode.cpp.s
 
 CMakeFiles/main.dir/src/avl.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/avl.cpp.o: ../src/avl.cpp
 CMakeFiles/main.dir/src/avl.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/avl.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/avl.cpp.o -MF CMakeFiles/main.dir/src/avl.cpp.o.d -o CMakeFiles/main.dir/src/avl.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/avl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/avl.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/avl.cpp.o -MF CMakeFiles/main.dir/src/avl.cpp.o.d -o CMakeFiles/main.dir/src/avl.cpp.o -c /home/edauandes/t4_eda/src/avl.cpp
 
 CMakeFiles/main.dir/src/avl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/avl.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/avl.cpp > CMakeFiles/main.dir/src/avl.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/avl.cpp > CMakeFiles/main.dir/src/avl.cpp.i
 
 CMakeFiles/main.dir/src/avl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/avl.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/avl.cpp -o CMakeFiles/main.dir/src/avl.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/avl.cpp -o CMakeFiles/main.dir/src/avl.cpp.s
 
 CMakeFiles/main.dir/src/avlNode.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/avlNode.cpp.o: ../src/avlNode.cpp
 CMakeFiles/main.dir/src/avlNode.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/avlNode.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/avlNode.cpp.o -MF CMakeFiles/main.dir/src/avlNode.cpp.o.d -o CMakeFiles/main.dir/src/avlNode.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/avlNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/avlNode.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/avlNode.cpp.o -MF CMakeFiles/main.dir/src/avlNode.cpp.o.d -o CMakeFiles/main.dir/src/avlNode.cpp.o -c /home/edauandes/t4_eda/src/avlNode.cpp
 
 CMakeFiles/main.dir/src/avlNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/avlNode.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/avlNode.cpp > CMakeFiles/main.dir/src/avlNode.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/avlNode.cpp > CMakeFiles/main.dir/src/avlNode.cpp.i
 
 CMakeFiles/main.dir/src/avlNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/avlNode.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/avlNode.cpp -o CMakeFiles/main.dir/src/avlNode.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/avlNode.cpp -o CMakeFiles/main.dir/src/avlNode.cpp.s
 
 CMakeFiles/main.dir/src/tree.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/tree.cpp.o: ../src/tree.cpp
 CMakeFiles/main.dir/src/tree.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/tree.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/tree.cpp.o -MF CMakeFiles/main.dir/src/tree.cpp.o.d -o CMakeFiles/main.dir/src/tree.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/tree.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/tree.cpp.o -MF CMakeFiles/main.dir/src/tree.cpp.o.d -o CMakeFiles/main.dir/src/tree.cpp.o -c /home/edauandes/t4_eda/src/tree.cpp
 
 CMakeFiles/main.dir/src/tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/tree.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/tree.cpp > CMakeFiles/main.dir/src/tree.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/tree.cpp > CMakeFiles/main.dir/src/tree.cpp.i
 
 CMakeFiles/main.dir/src/tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/tree.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/tree.cpp -o CMakeFiles/main.dir/src/tree.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/tree.cpp -o CMakeFiles/main.dir/src/tree.cpp.s
 
 CMakeFiles/main.dir/src/treeList.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/treeList.cpp.o: ../src/treeList.cpp
 CMakeFiles/main.dir/src/treeList.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/treeList.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/treeList.cpp.o -MF CMakeFiles/main.dir/src/treeList.cpp.o.d -o CMakeFiles/main.dir/src/treeList.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/treeList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/treeList.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/treeList.cpp.o -MF CMakeFiles/main.dir/src/treeList.cpp.o.d -o CMakeFiles/main.dir/src/treeList.cpp.o -c /home/edauandes/t4_eda/src/treeList.cpp
 
 CMakeFiles/main.dir/src/treeList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/treeList.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/treeList.cpp > CMakeFiles/main.dir/src/treeList.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/treeList.cpp > CMakeFiles/main.dir/src/treeList.cpp.i
 
 CMakeFiles/main.dir/src/treeList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/treeList.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/treeList.cpp -o CMakeFiles/main.dir/src/treeList.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/treeList.cpp -o CMakeFiles/main.dir/src/treeList.cpp.s
 
 CMakeFiles/main.dir/src/treeListNode.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/treeListNode.cpp.o: ../src/treeListNode.cpp
 CMakeFiles/main.dir/src/treeListNode.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/treeListNode.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/treeListNode.cpp.o -MF CMakeFiles/main.dir/src/treeListNode.cpp.o.d -o CMakeFiles/main.dir/src/treeListNode.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/treeListNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/treeListNode.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/treeListNode.cpp.o -MF CMakeFiles/main.dir/src/treeListNode.cpp.o.d -o CMakeFiles/main.dir/src/treeListNode.cpp.o -c /home/edauandes/t4_eda/src/treeListNode.cpp
 
 CMakeFiles/main.dir/src/treeListNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/treeListNode.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/treeListNode.cpp > CMakeFiles/main.dir/src/treeListNode.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/treeListNode.cpp > CMakeFiles/main.dir/src/treeListNode.cpp.i
 
 CMakeFiles/main.dir/src/treeListNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/treeListNode.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/treeListNode.cpp -o CMakeFiles/main.dir/src/treeListNode.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/treeListNode.cpp -o CMakeFiles/main.dir/src/treeListNode.cpp.s
 
 CMakeFiles/main.dir/src/treeNode.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/treeNode.cpp.o: ../src/treeNode.cpp
 CMakeFiles/main.dir/src/treeNode.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/treeNode.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/treeNode.cpp.o -MF CMakeFiles/main.dir/src/treeNode.cpp.o.d -o CMakeFiles/main.dir/src/treeNode.cpp.o -c /home/edauandes/Desktop/tareas/t4_eda/src/treeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/treeNode.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/treeNode.cpp.o -MF CMakeFiles/main.dir/src/treeNode.cpp.o.d -o CMakeFiles/main.dir/src/treeNode.cpp.o -c /home/edauandes/t4_eda/src/treeNode.cpp
 
 CMakeFiles/main.dir/src/treeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/treeNode.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Desktop/tareas/t4_eda/src/treeNode.cpp > CMakeFiles/main.dir/src/treeNode.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/t4_eda/src/treeNode.cpp > CMakeFiles/main.dir/src/treeNode.cpp.i
 
 CMakeFiles/main.dir/src/treeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/treeNode.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Desktop/tareas/t4_eda/src/treeNode.cpp -o CMakeFiles/main.dir/src/treeNode.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/t4_eda/src/treeNode.cpp -o CMakeFiles/main.dir/src/treeNode.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -221,7 +221,7 @@ main: CMakeFiles/main.dir/src/treeListNode.cpp.o
 main: CMakeFiles/main.dir/src/treeNode.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edauandes/t4_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +233,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/edauandes/Desktop/tareas/t4_eda/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edauandes/Desktop/tareas/t4_eda /home/edauandes/Desktop/tareas/t4_eda /home/edauandes/Desktop/tareas/t4_eda/build /home/edauandes/Desktop/tareas/t4_eda/build /home/edauandes/Desktop/tareas/t4_eda/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edauandes/t4_eda/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edauandes/t4_eda /home/edauandes/t4_eda /home/edauandes/t4_eda/build /home/edauandes/t4_eda/build /home/edauandes/t4_eda/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

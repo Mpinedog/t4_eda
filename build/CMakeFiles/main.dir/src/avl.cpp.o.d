@@ -1,8 +1,7 @@
-CMakeFiles/main.dir/src/avl.cpp.o: \
- /home/edauandes/Desktop/tareas/t4_eda/src/avl.cpp \
+CMakeFiles/main.dir/src/avl.cpp.o: /home/edauandes/t4_eda/src/avl.cpp \
  /usr/include/stdc-predef.h \
- /home/edauandes/Desktop/tareas/t4_eda/src/../include/avl/avl.hpp \
- /home/edauandes/Desktop/tareas/t4_eda/include/avl/avlNode.hpp \
+ /home/edauandes/t4_eda/src/../include/avl/avl.hpp \
+ /home/edauandes/t4_eda/include/avl/avlNode.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
