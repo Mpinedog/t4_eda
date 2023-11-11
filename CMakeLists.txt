@@ -8,7 +8,7 @@ project(main)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(main main.cpp abbNode.hpp abb.hpp)
+add_executable(main main.cpp abbNode.cpp abb.cpp tree.cpp treeList.cpp treeListNode.cpp treeNode.cpp)
 target_include_directories(main PUBLIC ${PROJECT_SOURCE_DIR}/include)
 
 
