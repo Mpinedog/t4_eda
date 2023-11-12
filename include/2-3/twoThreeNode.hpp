@@ -1,6 +1,5 @@
 #ifndef TTNODE_HPP_
 #define TTNODE_HPP_
-
 #include <vector>
 
 namespace trees {
@@ -8,31 +7,23 @@ namespace trees {
 class TTNode {
 private:
 	std::vector<int> data;
+	std::vector<TTNode*> children;
 	TTNode* parent;
-	TTNode* ptrLeft;
-	TTNode* ptrMiddle;
-	TTNode* ptrRight;
-	int size;
 public:
 	TTNode();
 	TTNode(int val);
-	void setParent(TTNode* node);
-	void setLeft(TTNode* node);
-	void setMiddle(TTNode* node);
-	void setRight(TTNode* node);
-	void setData(std::vector<int> new_data);
+	bool isLeaf();
+	void setData(std::vector<int> data);
+	void setChildren(std::vector<TTNode*> children);
+	void pushChildren(int val);
+	void pushChildren(TTNode* node);
 	void pushData(int val);
-	void deleteData();
-	TTNode* getParent();
-	TTNode* getLeft();
-	TTNode* getMiddle();
-	TTNode* getRight();
-	int getDataLeft();
-	int getDataRight();
+	std::vector<int> getData();
+	std::vector<TTNode*> getChildren();
 	int getSize();
 	virtual ~TTNode();
 };
 
 } /* namespace trees */
 
-#endif /* ABBNODE_H_ */
+#endif /* TTNODE_HPP_ */

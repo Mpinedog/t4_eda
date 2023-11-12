@@ -3,36 +3,40 @@
 
 namespace trees {
 
-TTNode::TTNode():
-	parent(nullptr), ptrLeft(nullptr), ptrMiddle(nullptr), ptrRight(nullptr) {
+TTNode::TTNode(): parent(nullptr) {
 }
 
-TTNode::TTNode(int val):
-	parent(nullptr), ptrLeft(nullptr), ptrMiddle(nullptr), ptrRight(nullptr) {
+TTNode::TTNode(int val): parent(nullptr) {
 	data.push_back(val);
 }
 
-void TTNode::setParent(TTNode* node){
-	parent = node;
-}
-
-void TTNode::setLeft(TTNode* node){
-	ptrLeft = node;
-	node->setParent(this);
-}
-
-void TTNode::setMiddle(TTNode* node){
-	ptrMiddle = node;
-	node->setParent(this);
-}
-
-void TTNode::setRight(TTNode* node){
-	ptrRight = node;
-	node->setParent(this);
+bool TTNode::isLeaf() {
+	return children.empty();
 }
 
 void TTNode::setData(std::vector<int> new_data) {
 	data = new_data;
+}
+
+void TTNode::setChildren(std::vector<TTNode*> new_children) {
+	children = new_children;
+}
+
+void TTNode::pushChildren(int val) {
+	TTNode* node = new TTNode(val);
+	for (int i = 0; i < sizeof(children); i++) {
+		if (children[i]-> data.front() > node->data.front()) {
+			children.insert(children.begin()+i,node);
+		}
+	}
+}
+
+void TTNode::pushChildren(TTNode* node) {
+	for (int i = 0; i < sizeof(children); i++) {
+		if (children[i]-> data.front() > node->data.front()) {
+			children.insert(children.begin()+i,node);
+		}
+	}
 }
 
 void TTNode::pushData(int val){
@@ -40,47 +44,21 @@ void TTNode::pushData(int val){
 	std::sort(data.begin(),data.end());
 }
 
-void TTNode::deleteData(){
-	data.erase(data.begin() + 1);
+std::vector<int> TTNode::getData() {
+	return data;
 }
 
-TTNode* TTNode::getLeft(){
-	return ptrLeft;
-}
-
-TTNode* TTNode::getMiddle(){
-	return ptrMiddle;
-}
-
-TTNode* TTNode::getParent(){
-	return parent;
-}
-
-TTNode* TTNode::getRight(){
-	return ptrRight;
-}
-
-int TTNode::getDataLeft(){
-	return data.front();
-}
-
-int TTNode::getDataRight(){
-	return data.back();
+std::vector<TTNode*> TTNode::getChildren() {
+	return children;
 }
 
 int TTNode::getSize(){
-	return data.size();
+	return sizeof(data);
 }
 
 TTNode::~TTNode() {
-	if (ptrLeft != nullptr){
-		delete ptrLeft;
-	}
-	if (ptrRight != nullptr){
-		delete ptrRight;
-	}
-	if (ptrLeft != nullptr){
-		delete ptrLeft;
+	for (int i = 0; i < sizeof(children); i++) {
+		delete children[i];
 	}
 }
 

@@ -7,17 +7,21 @@ namespace trees {
 
 class TT {
 private:
-	TTNode* root;
+    TTNode* root;
+
 public:
-	TT();
-	void insert_rec(int val, TTNode* node);
-	void insert(int val);
-	void repare(TTNode* node);
-	TTNode* find_rec(int val, TTNode* node);
-	TTNode* find(int val);
-	virtual ~TT();
+    TT();
+
+    void insert(int val);
+    void printTree();
+
+    void splitNode(TTNode* node);
+    void insert_rec(TTNode* currentNode, int val);
+    void printTreeRecursive(TTNode* currentNode, int level);
+
+    ~TT();
 };
 
 } /* namespace trees */
 
-#endif /* ABB_HPP_ */
+#endif /* TT_HPP_ */

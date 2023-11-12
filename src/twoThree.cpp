@@ -1,72 +1,44 @@
 #include "../include/2-3/twoThree.hpp"
+#include <iostream>
 
 namespace trees {
 
-TT::TT():root(nullptr) {
-
+TT::TT() : root(nullptr) {
 }
 
-void TT::insert_rec(int val, TTNode* node) {
-    if ((node->getLeft()==nullptr)&&(node->getLeft()==nullptr)) {
-        node->pushData(val);
-        repare(node);
-    }
-    else if (val < node->getDataLeft()) {
-        if (node->getLeft()==nullptr) {
-            node->setLeft(new TTNode(val));
-        }
-        else {
-            insert_rec(val, node->getLeft());
-        }
-    }
-    else if (val < node->getDataRight()) {
-        if (node->getMiddle()==nullptr) {
-            node->setMiddle(new TTNode(val));
-        }
-        else {
-            insert_rec(val, node->getMiddle());
-        }
-    }
-    else {
-        if (node->getRight()==nullptr) {
-            node->setRight(new TTNode(val));
-        }
-        else {
-            insert_rec(val, node->getRight());
-        }
-    }
+TT::~TT() {
+    // Implement destructor logic to free the memory occupied by the tree nodes
 }
 
 void TT::insert(int val) {
-    if (root == nullptr){
+    if (root == nullptr) {
         root = new TTNode(val);
-    }
-    else{
-		insert_rec(val, root);
-	}
-}
-
-void TT::repare(TTNode* node) {
-    if (2 < node->getSize()) {
-        TTNode* parent = node->getParent();
-        if (parent->getSize()==1) {
-            if (parent->getLeft()==nullptr) {
-                parent->setLeft(new TTNode(node->getDataLeft()));
-                parent->setMiddle(new TTNode(node->getDataRight()));
-            }
-            else {
-                parent->setMiddle(new TTNode(node->getDataLeft()));   
-                parent->setRight(new TTNode(node->getDataRight()));
-            }
-        }
-        
+    } else {
+        insert_rec(root, val);
     }
 }
 
-TTNode* TT::find_rec(int val, TTNode* node) {}
-TTNode* TT::find(int val) {}
+void TT::insert_rec(TTNode* currentNode, int val) {
+    if (currentNode->isLeaf()) {
+        currentNode->pushData(val);
+    }
+    else {
 
-TT::~TT() {
-    delete root;
+    }
 }
-};
+
+void TT::splitNode(TTNode* node) {
+    // Implement node splitting logic
+}
+
+void TT::printTree() {
+    printTreeRecursive(root, 0);
+}
+
+void TT::printTreeRecursive(TTNode* currentNode, int level) {
+    // Implement recursive tree printing logic with proper indentation
+}
+
+// Implement other functions as needed
+
+} /* namespace trees */
