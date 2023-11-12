@@ -13,12 +13,13 @@
 int main() {
 
     std::srand(time(nullptr));
-    int n = pow(10,3); // Cambia este valor al número deseado de claves
-    
-    clock_t start = clock();
+    int n = pow(10,6); // Cambia este valor al número deseado de claves
+    std::cout<<n<<std::endl;
 
+    //ABB
+    /*
+    //clock_t start = clock();
     trees::ABB arbol;
-
     // Insertar n claves en el árbol
     for (int i = 1; i <= n; ++i) {
         int numero_aleatorio = std::rand();
@@ -28,12 +29,25 @@ int main() {
     clock_t end = clock();
     double insercion_time = static_cast<double>(end-start)/CLOCKS_PER_SEC;
     std::cout<<"tiempo de insercion: "<<insercion_time<<std::endl;
-
+    
     // Mostrar el árbol en orden ascendente
-    //std::cout << "Árbol en orden ascendente: ";
-    //arbol.showASC();
+    std::cout << "Árbol en orden ascendente: ";
+    arbol.showASC();
+    */
 
-    // Realizar alguna operación adicional según sea necesario
+
+    //AVL
+    /*
     trees::AVL avl;
+    clock_t start = clock();
+    for (int i = 1; i <= n; ++i) {
+        int numero_aleatorio = std::rand();
+        avl.insert(numero_aleatorio);
+    }
+    clock_t end = clock();
+    double insercion_time = static_cast<double>(end-start)/CLOCKS_PER_SEC;
+    std::cout<<"tiempo de insercion: "<<insercion_time<<std::endl;
+    */
+
     return 0;
 }
