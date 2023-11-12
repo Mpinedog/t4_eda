@@ -24,7 +24,7 @@ int main() {
         vector.push_back(numero_aleatorio);
     }
     
-    /*
+    
     //ABB
     // Insertar n claves en el árbol
     trees::ABB arbol;
@@ -36,10 +36,6 @@ int main() {
     double insercion_time_ABB = static_cast<double>(end_insr_abb - start_insr_abb)/CLOCKS_PER_SEC;
     std::cout<<"tiempo de insercion: "<<insercion_time_ABB<<std::endl;
     
-    //Mostrar el árbol en orden ascendente
-    //std::cout << "Árbol en orden ascendente: ";
-    //arbol.showASC();
-    
 
    //busqueda de n claves en el arbol
     clock_t start_srch_abb = clock();
@@ -49,7 +45,7 @@ int main() {
     clock_t end_srch_abb = clock();
     double search_time_ABB = static_cast<double>(end_srch_abb- start_srch_abb)/CLOCKS_PER_SEC;
     std::cout<<"tiempo de busqueda "<<search_time_ABB<<std::endl;
-    */
+    
 
     
     //AVL
