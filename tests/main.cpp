@@ -14,7 +14,7 @@
 int main() {
 
     std::srand(time(nullptr));
-    int n = pow(10,3); // Cambia este valor al número deseado de claves
+    int n = pow(10,6); // Cambia este valor al número deseado de claves
     std::cout<<"Tamaño: "<<n<<std::endl;
 
     //generar n numeros 
@@ -29,7 +29,7 @@ int main() {
     // Insertar n claves en el árbol
     trees::ABB arbol;
     clock_t start_insr_abb = clock();
-    for (int i =0; i < vector.size();++i) {
+    for (int i = 0; i < vector.size();++i) {
         arbol.insert(vector[i]);
     }
     clock_t end_insr_abb = clock();
@@ -56,7 +56,7 @@ int main() {
     //insertar n claves en arbol
     trees::AVL avl;
     clock_t start_insr_avl = clock();
-    for (int i = 1; i <= vector.size(); ++i) {
+    for (int i = 0; i <= vector.size(); ++i) {
         avl.insert(vector[i]);
     }
     clock_t end_insr_avl = clock();
