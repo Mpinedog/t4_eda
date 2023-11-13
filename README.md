@@ -8,5 +8,7 @@ make
 el nombre del programa es main
 eso es lo unico ncesario para compilar el programa
 
+https://github.com/Mpinedog/t4_eda.git
+
 -Martin Pinedo
 -Alberto Zuñiga
