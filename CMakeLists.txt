@@ -14,6 +14,8 @@ SET(MY_SOURCE_FILES
     src/treeNode.cpp
     src/twoThree.cpp
     src/twoThreeNode.cpp
+    src/twoThreeNode.cpp
+    src/twothreetree.cpp
 )
 # set the project name
 

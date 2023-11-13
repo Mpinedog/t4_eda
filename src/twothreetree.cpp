@@ -1,4 +1,4 @@
-#include "../include/2-3/twoThreeTree.hpp"
+#include "../include/2-3/twothreetree.hpp"
 
 TwoThreeTree::Node* TwoThreeTree::insert(Node* node, int key) {
     if (!node) {

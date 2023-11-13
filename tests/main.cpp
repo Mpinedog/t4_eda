@@ -15,7 +15,7 @@
 int main() {
 
     std::srand(time(nullptr));
-    int n = pow(10,6); // Cambia este valor al número deseado de claves
+    int n = pow(10,3); // Cambia este valor al número deseado de claves
     std::cout<<"Tamaño: "<<n<<std::endl;
 
     //generar n numeros 
@@ -89,9 +89,9 @@ int main() {
     double search_time_tree_2_3 = static_cast<double>(end_srch_tree_2_3- start_srch_tree_2_3)/CLOCKS_PER_SEC;
     std::cout<<"tiempo de busqueda: "<<search_time_tree_2_3<<std::endl;
     
-    std::cout << "Recorrido del árbol: ";
-    tree_2_3.traverse();
-    std::cout << std::endl;
+    //std::cout << "Recorrido del árbol: ";
+    //tree_2_3.traverse();
+    //std::cout << std::endl;
 
 
 
