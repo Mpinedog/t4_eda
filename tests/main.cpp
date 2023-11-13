@@ -7,6 +7,7 @@
 #include "../include/tree/treeList.hpp"
 #include "../include/tree/treeListNode.hpp"
 #include "../include/tree/treeNode.hpp"
+#include "../include/2-3/twothreetree.hpp"
 #include <cmath>
 #include <cstdlib>
 #include <vector>
@@ -24,7 +25,7 @@ int main() {
         vector.push_back(numero_aleatorio);
     }
     
-    
+    /*
     //ABB
     // Insertar n claves en el árbol
     trees::ABB arbol;
@@ -68,6 +69,31 @@ int main() {
     double search_time_AVL = static_cast<double>(end_srch_avl- start_srch_avl)/CLOCKS_PER_SEC;
     std::cout<<"tiempo de busqueda: "<<search_time_AVL<<std::endl;
     
+    */
+    //////////////////////////////////////
+    TwoThreeTree tree_2_3;
+
+    clock_t start_insr_tree_2_3 = clock();
+    for (int i = 0; i <= vector.size(); ++i) {
+        tree_2_3.insert(vector[i]);
+    }
+    clock_t end_insr_tree_2_3 = clock();
+    double insercion_time_tree_2_3 = static_cast<double>(end_insr_tree_2_3 - start_insr_tree_2_3)/CLOCKS_PER_SEC;
+    std::cout<<"tiempo de insercion: "<<insercion_time_tree_2_3<<std::endl;
+
+    clock_t start_srch_tree_2_3 = clock();
+    for(int i = 0; i < vector.size(); ++i){
+        tree_2_3.find(vector[i]);
+    }
+    clock_t end_srch_tree_2_3 = clock();
+    double search_time_tree_2_3 = static_cast<double>(end_srch_tree_2_3- start_srch_tree_2_3)/CLOCKS_PER_SEC;
+    std::cout<<"tiempo de busqueda: "<<search_time_tree_2_3<<std::endl;
+    
+    std::cout << "Recorrido del árbol: ";
+    tree_2_3.traverse();
+    std::cout << std::endl;
+
+
 
     return 0;
 }
